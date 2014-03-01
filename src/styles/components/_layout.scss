@@ -151,13 +151,14 @@ path {
 .silver {
   @include span-columns(2 of 8);
   // height: 1rem;
-  // @include omega(4n);
+  @include omega(4n);
   // background: silver;
   // background: white;
 }
 
 .noimg {
   margin-top: -2rem;
+  color: black;
   // display: none;
 }
 
