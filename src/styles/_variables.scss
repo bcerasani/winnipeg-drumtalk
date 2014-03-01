@@ -1,0 +1,46 @@
+/*  ============================================
+		Variables
+============================================= */
+
+/*  Typography
+--------------------------------------------- */
+
+// Font Stacks
+$ff-sans: 'Gotham SSm A', 'Gotham SSm B';
+$ff-serif: Georgia, serif;
+$ff-default: $ff-sans;
+
+// Font Sizes
+$fs-extra-large: 2.369rem;
+$fs-large: 1.777rem;
+$fs-medium: 1.333rem;
+$fs-default: 1rem;
+$fs-small: 0.75rem;
+
+// Font Weights
+$fw-extra-light: 100;
+$fw-light: 300;
+$fw-default: 400;
+$fw-semibold: 700;
+$fw-bold: 900;
+
+/*  Colors
+--------------------------------------------- */
+
+// Base Colors
+$color-primary: #399eba;
+$color-secondary: #329ba1;
+
+// Common Colors
+$color-white: #F5F5F5;
+$color-extra-light-gray: #B3B3B3;
+$color-light-gray: #6B6B6B;
+$color-gray: #3B3B3B;
+$color-dark-gray: #282828;
+
+// Brand Colors
+$color-youtube: #C4302B;
+$color-facebook: #3B5998;
+$color-google: #DD4B39;
+$color-twitter: #55ACEE;
+$color-vimeo: #44BBFF;

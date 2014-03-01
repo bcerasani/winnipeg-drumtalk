@@ -1,0 +1,210 @@
+//  ============================================
+//  Module
+//  ============================================
+
+
+
+//  Navigation
+// ---------------------------------------------
+
+.logomark {
+    display: block;
+    width: 320px;
+    height: 320px;
+    background: url("../images/drumtalk_logomark-3.png") center center no-repeat;
+    background-size: 320px 320px;
+    margin: 0 auto 0 auto;
+  }
+
+
+//  People
+// ---------------------------------------------
+
+.person {
+  @include span-columns(4 of 12);
+  @include omega(3n);
+  margin-bottom: 3rem;
+  img {
+    margin: 0 0 1rem 0;
+    display: block;
+  }
+  .bio {
+    display: none;
+  }
+  p {
+    font-size: $fs-small;
+    margin: 0 0 1rem 0;
+    color: $color-light-gray;
+  }
+}
+
+.is-featured {
+  @include span-columns(8 of 12);
+  @include shift(2);
+  margin-bottom: 3rem;
+  img {
+    min-width: 100%;
+  }
+  .bio {
+    display: block;
+  }
+}
+
+//  Media
+// ---------------------------------------------
+
+.image-fill.facebook {
+  // background: url("../images/hero-01_bw.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  display: table;
+  z-index: 0;
+  &:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    @include linear-gradient(45deg, rgba($color-facebook, 0.6) 0%, rgba((adjust-color($color-facebook, $lightness: -10%, $saturation: 25%)), 0.6) 99%);
+  }
+}
+
+.image-fill.youtube {
+  // background: url("../images/hero-04_bw.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  &:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    @include linear-gradient(45deg, rgba($color-youtube, 0.6) 0%, rgba((adjust-color($color-youtube, $lightness: -10%, $saturation: 25%)), 0.6) 99%);
+  }
+}
+
+.text {
+  padding: 3rem 0;
+  color: $color-white;
+  text-align: center;
+  z-index: 100;
+  span {
+    font-size: $fs-small;
+    display: block;
+  }
+  h1 {
+    width: 60%;
+    color: $color-white;
+    margin: 1rem auto 1.5rem auto;
+    padding: 1rem 0;
+    border-top: 1px solid $color-white;
+    border-bottom: 1px solid $color-white;
+  }
+  a {
+    font-size: $fs-small;
+    color: $color-white;
+    border-color: $color-white;
+    &:hover {
+      background: transparent;
+      color: white;
+    }
+  }
+}
+
+//  Maps
+// ---------------------------------------------
+
+.gm-style-iw {
+  overflow:visible !important;
+}
+
+.gm-style-iw + div {
+  display: none;
+}
+
+.gmaps-infowindow {
+  width: 160px;
+  * {
+    line-height: 1.5;
+  }
+  p {
+    margin: 0 0 1rem 0;
+  }
+  a {
+    display: block;
+    &:visited {
+      color: blue;
+    }
+  }
+}
+
+#map {
+  position: absolute;
+  height: 100%;
+  min-height: 450px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transform: translateZ(0);
+  overflow: hidden;
+  // &:before {
+  //   content: "";
+  //   display: block;
+  //   padding-top: 50%;
+  // }
+}
+
+.map-wrap {
+  min-height: 450px;
+  -webkit-animation: fadeIn .3s .8s both;
+}
+
+.location {
+  // display: none;
+  border-radius: 5px;
+  padding: 2rem 0;
+  margin: 2rem 0;
+  background: $color-dark-gray;
+  color: $color-white;
+  @include span-columns(3 of 12);
+  @include shift(9);
+  position: relative;
+  // min-height: 1px;
+  float: left;
+  height: 100% !important;
+}
+
+.relative {
+  position: relative;
+}
+
+//  Buttons
+// ---------------------------------------------
+
+.button {
+  font: $fw-default $fs-default $ff-default;
+  color: $color-primary;
+  border-radius: 5px;
+  border: 2px solid $color-primary;
+  padding: 1rem 2rem;
+  display: inline-block;
+  &:hover {
+    background: $color-primary;
+    color: $color-white;
+  }
+}
+
+.ss-icon {
+  font-size: $fs-medium;
+  display: inline-block;
+  padding: 0 0.25rem 0 0;
+}

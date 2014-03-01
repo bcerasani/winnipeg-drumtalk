@@ -1,0 +1,52 @@
+/*  ============================================
+		State
+============================================= */
+
+/*  Helpers
+--------------------------------------------- */
+
+.is-hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+.is-invisible {
+	visibility: hidden;
+}
+
+.google {
+  @include link($color-google);
+}
+
+.facebook {
+  @include link($color-facebook);
+}
+
+.youtube {
+  @include link($color-youtube);
+}
+
+.twitter {
+  @include link($color-twitter);
+}
+
+.vimeo {
+  @include link($color-vimeo);
+}
+
+.link {
+  @include link($color-extra-light-gray);
+}
+
+/*  Selected
+--------------------------------------------- */
+
+::-moz-selection {
+	background: $color-primary;
+	text-shadow: none;
+}
+
+::selection {
+	background: $color-primary;
+	text-shadow: none;
+}
