@@ -136,9 +136,20 @@ section {
   }
 }
 
-path {
-  fill: red;
+svg {
+  display: block;
+  height: auto;
+  max-height: 100%;
 }
+
+path, g {
+
+  fill: $color-light-gray;
+  &.override {
+    fill: $color-white !important;
+  }
+}
+
 
 .gold {
   @include span-columns(4 of 8);
@@ -150,15 +161,15 @@ path {
 
 .silver {
   @include span-columns(2 of 8);
-  // height: 1rem;
   @include omega(4n);
+  font-size: $fs-default;
   // background: silver;
   // background: white;
 }
 
 .noimg {
   margin-top: -2rem;
-  color: black;
+  color: $color-light-gray;
   // display: none;
 }
 
