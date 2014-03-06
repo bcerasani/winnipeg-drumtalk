@@ -4,8 +4,8 @@
 $gutter: 1em;
 $grid-columns: 6;
 $max-width: 1200px;
-// $visual-grid: true;
-// $visual-grid-color: orange;
+$visual-grid: true;
+$visual-grid-color: orange;
 
 // Define your breakpoints
 $mobile: new-breakpoint(min-width 320px 6);

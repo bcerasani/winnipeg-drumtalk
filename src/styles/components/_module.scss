@@ -28,21 +28,28 @@
 }
 
 .logomark {
-    display: block;
-    width: 320px;
-    height: 320px;
-    background: url("../images/drumtalk_logomark-3.png") center center no-repeat;
-    background-size: 320px 320px;
     margin: 0 auto 0 auto;
+    display: block;
+    background: url("../images/drumtalk_logomark-3.png") center center no-repeat;
+    width: 160px;
+    height: 160px;
+    background-size: 160px 160px;
+    @include media($tablet) {
+      width: 220px;
+      height: 220px;
+      background-size: 220px 220px;
+    }
+    @include media($desktop) {
+      width: 320px;
+      height: 320px;
+      background-size: 320px 320px;
+    }
   }
 
 //  People
 // ---------------------------------------------
 
 .person {
-  @include span-columns(4 of 12);
-  @include omega(3n);
-  margin-bottom: 3rem;
   img {
     margin: 0 0 1rem 0;
     display: block;
@@ -61,11 +68,13 @@
 // ---------------------------------------------
 
 .sponsor {
-  margin: 0 0 2rem 0;
   font: $fw-semibold $fs-large $ff-default;
   letter-spacing: -2px;
   color: $color-extra-light-gray;
   text-align: center;
+  @include media($desktop) {
+    margin: 0 0 2rem 0;
+  }
   img {
     display: block;
     margin: 0 auto;
@@ -86,8 +95,11 @@ path, g {
 }
 
 .noimg {
-  margin-top: -2rem;
+  margin-bottom: 2rem;
   color: $color-light-gray;
+  @include media($desktop) {
+    margin-top: -2rem;
+  }
 }
 
 //  Media
@@ -121,10 +133,13 @@ path, g {
 }
 
 .social-block .text {
-  padding: 3rem 0;
+  padding: 2rem 0;
   color: $color-white;
   text-align: center;
   z-index: 10;
+  @include media($desktop) {
+   padding: 3rem 0;
+  }
   span {
     font-size: $fs-small;
     display: block;
@@ -159,58 +174,19 @@ path, g {
   display: none;
 }
 
-.gmaps-infowindow {
-  width: 160px;
-  * {
-    line-height: 1.5;
-  }
-  p {
-    margin: 0 0 1rem 0;
-  }
-  a {
-    display: block;
-    &:visited {
-      color: blue;
-    }
-  }
-}
-
 #map {
-  position: absolute;
-  height: 100%;
-  min-height: 450px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  height: 220px;
   z-index: 0;
+  margin: 0;
   -webkit-transform: translateZ(0);
   overflow: hidden;
-  // &:before {
-  //   content: "";
-  //   display: block;
-  //   padding-top: 50%;
-  // }
+  @include media($tablet) {
+    height: 400px;
+  }
 }
 
 .map-wrap {
-  min-height: 450px;
-  -webkit-animation: fadeIn .3s .8s both;
-}
-
-.location {
-  // display: none;
-  border-radius: 5px;
-  padding: 2rem 0;
-  margin: 2rem 0;
-  background: $color-dark-gray;
-  color: $color-white;
-  @include span-columns(3 of 12);
-  @include shift(9);
-  position: relative;
-  // min-height: 1px;
-  float: left;
-  height: 100% !important;
+  padding: 0;
 }
 
 //  Buttons

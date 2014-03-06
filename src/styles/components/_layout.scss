@@ -15,14 +15,26 @@
 header {
   position: relative;
   z-index: 0;
-  padding: 8rem 0;
+  padding: 2rem 0;
+  @include media($tablet) {
+    padding: 4rem 0;
+  }
+  @include media($desktop) {
+    padding: 8rem 0;
+  }
 }
 
 //  Main
 // ---------------------------------------------
 
 section {
-  margin: 6rem 0;
+  margin: 2rem 0;
+  @include media($tablet) {
+    padding: 4rem 0;
+  }
+  @include media($desktop) {
+    padding: 4rem 0;
+  }
   &:last-of-type {
     margin-bottom: 0;
   }
@@ -30,27 +42,57 @@ section {
 
 .container {
   @include outer-container;
+  padding: 0 1rem;
+  @include media($tablet) {
+    padding: 0 2rem;
+  }
+  @include media($desktop) {
+    padding: 0;
+  }
 }
 
 .inner {
-  @include span-columns(8 of 12);
-  @include shift(2);
+  @include media($desktop) {
+    @include span-columns(8 of 12);
+    @include shift(2);
+  }
+}
+
+.person {
+  margin-bottom: 2rem;
+  @include media($desktop) {
+    @include span-columns(4 of 12);
+    @include omega(3n);
+    margin-bottom: 3rem;
+  }
 }
 
 .half {
-  @include span-columns(6 of 12);
-  @include omega(2n);
+  @include fill-parent;
+  margin-bottom: 2rem;
+  @include media($desktop) {
+    @include span-columns(6 of 12);
+    @include omega(2n);
+  }
 }
 
 .gold {
-  @include span-columns(4 of 8);
-  @include omega(2n);
+  text-align: center;
+  display: block;
+  @include media($desktop) {
+    @include span-columns(4 of 8);
+    @include omega(2n);
+  }
 }
 
 .silver {
-  @include span-columns(2 of 8);
-  @include omega(4n);
   font-size: $fs-default;
+  @include span-columns(3 of 6);
+  @include omega(2n);
+  @include media($desktop) {
+    @include span-columns(2 of 8);
+    @include omega(4n);
+  }
  }
 
 //  Footer
