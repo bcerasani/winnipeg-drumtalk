@@ -1,7 +1,7 @@
 (function() {
 var count = 0;
 var classes = ["hero-01", "hero-02", "hero-03", "hero-04", "hero-05", "hero-06", "hero-07", "hero-08", "hero-09", "hero-10", "hero-11", "hero-12", "hero-13", "hero-14", "hero-15"]
-  $('.image-fill').each(function(index) {
+  $('.image-fill, .social-image-fill').each(function(index) {
     count += 1;
     var rand = ~~(Math.random()*classes.length)
     $(this).addClass(classes[rand]);

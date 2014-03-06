@@ -5,103 +5,21 @@
 //  Helpers
 // ---------------------------------------------
 
-.hero-01 {
-  background: url("../images/hero/01_bw.jpg") center center no-repeat;
+.relative {
+  position: relative;
 }
-
-.hero-02 {
-  background: url("../images/hero/02_bw.jpg") center center no-repeat;
-}
-
-.hero-03 {
-  background: url("../images/hero/03_bw.jpg") center center no-repeat;
-}
-
-.hero-04 {
-  background: url("../images/hero/04_bw.jpg") center center no-repeat;
-}
-
-.hero-05 {
-  background: url("../images/hero/05_bw.jpg") center center no-repeat;
-}
-
-.hero-06 {
-  background: url("../images/hero/06_bw.jpg") center center no-repeat;
-}
-
-.hero-07 {
-  background: url("../images/hero/07_bw.jpg") center center no-repeat;
-}
-
-.hero-08 {
-  background: url("../images/hero/08_bw.jpg") center center no-repeat;
-}
-
-.hero-09 {
-  background: url("../images/hero/09_bw.jpg") center center no-repeat;
-}
-
-.hero-10 {
-  background: url("../images/hero/10_bw.jpg") center center no-repeat;
-}
-
-.hero-11 {
-  background: url("../images/hero/11_bw.jpg") center center no-repeat;
-}
-
-.hero-12 {
-  background: url("../images/hero/12_bw.jpg") center center no-repeat;
-}
-
-.hero-13 {
-  background: url("../images/hero/13_bw.jpg") center center no-repeat;
-}
-
-.hero-14 {
-  background: url("../images/hero/14_bw.jpg") center center no-repeat;
-}
-
-.hero-15 {
-  background: url("../images/hero/15_bw.jpg") center center no-repeat;
-}
-
-
 
 //  Header
 // ---------------------------------------------
 
-//  Main
-// ---------------------------------------------
-
-* {
-  box-sizing: border-box;
-}
-
-.hero {
-  background-size: cover;
+header {
   position: relative;
   z-index: 0;
   padding: 8rem 0;
-  @include clearfix;
-  &:before {
-    z-index: -1;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    pointer-events: none;
-    @include linear-gradient(45deg, rgba($color-primary, 0.6) 0%, rgba($color-secondary, 0.6) 99%);
-  }
 }
 
-.hero-content {
-  color: #fafafa;
-  position: relative;
-}
-
+//  Main
+// ---------------------------------------------
 
 section {
   margin: 6rem 0;
@@ -124,60 +42,21 @@ section {
   @include omega(2n);
 }
 
-.sponsor {
-  margin: 0 0 2rem 0;
-  font: $fw-semibold $fs-large $ff-default;
-  letter-spacing: -2px;
-  color: $color-extra-light-gray;
-  text-align: center;
-  img {
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-svg {
-  display: block;
-  height: auto;
-  max-height: 100%;
-}
-
-path, g {
-
-  fill: $color-light-gray;
-  &.override {
-    fill: $color-white !important;
-  }
-}
-
-
 .gold {
   @include span-columns(4 of 8);
   @include omega(2n);
-  // background: white;
-  // background: gold;
-  // margin-bottom: 0;
 }
 
 .silver {
   @include span-columns(2 of 8);
   @include omega(4n);
   font-size: $fs-default;
-  // background: silver;
-  // background: white;
-}
-
-.noimg {
-  margin-top: -2rem;
-  color: $color-light-gray;
-  // display: none;
-}
+ }
 
 //  Footer
 // ---------------------------------------------
 
 footer {
-  // position: relative;
   padding: 1rem 0;
   font-size: $fs-small;
   background: $color-dark-gray;
