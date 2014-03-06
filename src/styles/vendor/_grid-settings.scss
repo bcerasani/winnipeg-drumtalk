@@ -4,10 +4,11 @@
 $gutter: 1em;
 $grid-columns: 6;
 $max-width: 1200px;
-$visual-grid: true;
-$visual-grid-color: orange;
+// $visual-grid: true;
+// $visual-grid-color: orange;
 
 // Define your breakpoints
-$mobile: new-breakpoint(min-width 320px 6);
-$tablet: new-breakpoint(min-width 569px 8);
+$mobile: new-breakpoint(min-width 320px max-width 568px 6);
+$tablet: new-breakpoint(min-width 569px max-width 959px 8);
 $desktop: new-breakpoint(min-width 960px 12);
+$widescreen: new-breakpoint(min-width 1200px 12);

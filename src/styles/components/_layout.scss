@@ -28,12 +28,12 @@ header {
 // ---------------------------------------------
 
 section {
-  margin: 2rem 0;
+  margin: 4rem 0;
   @include media($tablet) {
     padding: 4rem 0;
   }
   @include media($desktop) {
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
   &:last-of-type {
     margin-bottom: 0;
@@ -47,7 +47,10 @@ section {
     padding: 0 2rem;
   }
   @include media($desktop) {
-    padding: 0;
+    padding: 0 2rem;
+  }
+  @include media($widescreen) {
+    padding: 0 0;
   }
 }
 
@@ -60,6 +63,10 @@ section {
 
 .person {
   margin-bottom: 2rem;
+  @include media($tablet) {
+    @include span-columns(4 of 8);
+    @include omega(2n);
+  }
   @include media($desktop) {
     @include span-columns(4 of 12);
     @include omega(3n);
@@ -79,6 +86,10 @@ section {
 .gold {
   text-align: center;
   display: block;
+  @include media($tablet) {
+    @include span-columns(4 of 8);
+    @include omega(2n);
+  }
   @include media($desktop) {
     @include span-columns(4 of 8);
     @include omega(2n);
@@ -87,8 +98,14 @@ section {
 
 .silver {
   font-size: $fs-default;
-  @include span-columns(3 of 6);
-  @include omega(2n);
+  @include media($mobile) {
+    @include span-columns(3 of 6);
+    @include omega(2n);
+  }
+  @include media($tablet) {
+    @include span-columns(2 of 8);
+    @include omega(4n);
+  }
   @include media($desktop) {
     @include span-columns(2 of 8);
     @include omega(4n);

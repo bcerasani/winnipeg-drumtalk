@@ -133,18 +133,16 @@ path, g {
 }
 
 .social-block .text {
-  padding: 2rem 0;
+  padding: 3rem 0;
   color: $color-white;
   text-align: center;
   z-index: 10;
-  @include media($desktop) {
-   padding: 3rem 0;
-  }
   span {
     font-size: $fs-small;
     display: block;
   }
   h1 {
+    text-align: center;
     width: 60%;
     color: $color-white;
     margin: 1rem auto 1.5rem auto;
@@ -181,6 +179,9 @@ path, g {
   -webkit-transform: translateZ(0);
   overflow: hidden;
   @include media($tablet) {
+    height: 400px;
+  }
+  @include media($desktop) {
     height: 400px;
   }
 }

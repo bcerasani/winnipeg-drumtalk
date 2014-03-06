@@ -36,38 +36,6 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-body:before {
-  content: '';
-  display: inline-block;
-  background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 13.92677%, rgba(0, 0, 0, 0) 13.92677%, rgba(0, 0, 0, 0) 17.21465%, #ffa500 17.21465%, #ffa500 31.14142%, rgba(0, 0, 0, 0) 31.14142%, rgba(0, 0, 0, 0) 34.42929%, #ffa500 34.42929%, #ffa500 48.35606%, rgba(0, 0, 0, 0) 48.35606%, rgba(0, 0, 0, 0) 51.64394%, #ffa500 51.64394%, #ffa500 65.57071%, rgba(0, 0, 0, 0) 65.57071%, rgba(0, 0, 0, 0) 68.85858%, #ffa500 68.85858%, #ffa500 82.78535%, rgba(0, 0, 0, 0) 82.78535%, rgba(0, 0, 0, 0) 86.07323%, #ffa500 86.07323%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 13.92677%, rgba(0, 0, 0, 0) 13.92677%, rgba(0, 0, 0, 0) 17.21465%, #ffa500 17.21465%, #ffa500 31.14142%, rgba(0, 0, 0, 0) 31.14142%, rgba(0, 0, 0, 0) 34.42929%, #ffa500 34.42929%, #ffa500 48.35606%, rgba(0, 0, 0, 0) 48.35606%, rgba(0, 0, 0, 0) 51.64394%, #ffa500 51.64394%, #ffa500 65.57071%, rgba(0, 0, 0, 0) 65.57071%, rgba(0, 0, 0, 0) 68.85858%, #ffa500 68.85858%, #ffa500 82.78535%, rgba(0, 0, 0, 0) 82.78535%, rgba(0, 0, 0, 0) 86.07323%, #ffa500 86.07323%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 13.92677%, rgba(0, 0, 0, 0) 13.92677%, rgba(0, 0, 0, 0) 17.21465%, #ffa500 17.21465%, #ffa500 31.14142%, rgba(0, 0, 0, 0) 31.14142%, rgba(0, 0, 0, 0) 34.42929%, #ffa500 34.42929%, #ffa500 48.35606%, rgba(0, 0, 0, 0) 48.35606%, rgba(0, 0, 0, 0) 51.64394%, #ffa500 51.64394%, #ffa500 65.57071%, rgba(0, 0, 0, 0) 65.57071%, rgba(0, 0, 0, 0) 68.85858%, #ffa500 68.85858%, #ffa500 82.78535%, rgba(0, 0, 0, 0) 82.78535%, rgba(0, 0, 0, 0) 86.07323%, #ffa500 86.07323%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1200px;
-  opacity: 0.4;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  pointer-events: none;
-  z-index: -1; }
-  @media screen and (min-width: 320px) {
-    body:before {
-      background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 13.92677%, rgba(0, 0, 0, 0) 13.92677%, rgba(0, 0, 0, 0) 17.21465%, #ffa500 17.21465%, #ffa500 31.14142%, rgba(0, 0, 0, 0) 31.14142%, rgba(0, 0, 0, 0) 34.42929%, #ffa500 34.42929%, #ffa500 48.35606%, rgba(0, 0, 0, 0) 48.35606%, rgba(0, 0, 0, 0) 51.64394%, #ffa500 51.64394%, #ffa500 65.57071%, rgba(0, 0, 0, 0) 65.57071%, rgba(0, 0, 0, 0) 68.85858%, #ffa500 68.85858%, #ffa500 82.78535%, rgba(0, 0, 0, 0) 82.78535%, rgba(0, 0, 0, 0) 86.07323%, #ffa500 86.07323%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 13.92677%, rgba(0, 0, 0, 0) 13.92677%, rgba(0, 0, 0, 0) 17.21465%, #ffa500 17.21465%, #ffa500 31.14142%, rgba(0, 0, 0, 0) 31.14142%, rgba(0, 0, 0, 0) 34.42929%, #ffa500 34.42929%, #ffa500 48.35606%, rgba(0, 0, 0, 0) 48.35606%, rgba(0, 0, 0, 0) 51.64394%, #ffa500 51.64394%, #ffa500 65.57071%, rgba(0, 0, 0, 0) 65.57071%, rgba(0, 0, 0, 0) 68.85858%, #ffa500 68.85858%, #ffa500 82.78535%, rgba(0, 0, 0, 0) 82.78535%, rgba(0, 0, 0, 0) 86.07323%, #ffa500 86.07323%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-      background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 13.92677%, rgba(0, 0, 0, 0) 13.92677%, rgba(0, 0, 0, 0) 17.21465%, #ffa500 17.21465%, #ffa500 31.14142%, rgba(0, 0, 0, 0) 31.14142%, rgba(0, 0, 0, 0) 34.42929%, #ffa500 34.42929%, #ffa500 48.35606%, rgba(0, 0, 0, 0) 48.35606%, rgba(0, 0, 0, 0) 51.64394%, #ffa500 51.64394%, #ffa500 65.57071%, rgba(0, 0, 0, 0) 65.57071%, rgba(0, 0, 0, 0) 68.85858%, #ffa500 68.85858%, #ffa500 82.78535%, rgba(0, 0, 0, 0) 82.78535%, rgba(0, 0, 0, 0) 86.07323%, #ffa500 86.07323%, #ffa500 100%, rgba(0, 0, 0, 0) 100%); } }
-  @media screen and (min-width: 569px) {
-    body:before {
-      background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 10.35992%, rgba(0, 0, 0, 0) 10.35992%, rgba(0, 0, 0, 0) 12.80573%, #ffa500 12.80573%, #ffa500 23.16565%, rgba(0, 0, 0, 0) 23.16565%, rgba(0, 0, 0, 0) 25.61145%, #ffa500 25.61145%, #ffa500 35.97137%, rgba(0, 0, 0, 0) 35.97137%, rgba(0, 0, 0, 0) 38.41718%, #ffa500 38.41718%, #ffa500 48.7771%, rgba(0, 0, 0, 0) 48.7771%, rgba(0, 0, 0, 0) 51.2229%, #ffa500 51.2229%, #ffa500 61.58282%, rgba(0, 0, 0, 0) 61.58282%, rgba(0, 0, 0, 0) 64.02863%, #ffa500 64.02863%, #ffa500 74.38855%, rgba(0, 0, 0, 0) 74.38855%, rgba(0, 0, 0, 0) 76.83435%, #ffa500 76.83435%, #ffa500 87.19427%, rgba(0, 0, 0, 0) 87.19427%, rgba(0, 0, 0, 0) 89.64008%, #ffa500 89.64008%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 10.35992%, rgba(0, 0, 0, 0) 10.35992%, rgba(0, 0, 0, 0) 12.80573%, #ffa500 12.80573%, #ffa500 23.16565%, rgba(0, 0, 0, 0) 23.16565%, rgba(0, 0, 0, 0) 25.61145%, #ffa500 25.61145%, #ffa500 35.97137%, rgba(0, 0, 0, 0) 35.97137%, rgba(0, 0, 0, 0) 38.41718%, #ffa500 38.41718%, #ffa500 48.7771%, rgba(0, 0, 0, 0) 48.7771%, rgba(0, 0, 0, 0) 51.2229%, #ffa500 51.2229%, #ffa500 61.58282%, rgba(0, 0, 0, 0) 61.58282%, rgba(0, 0, 0, 0) 64.02863%, #ffa500 64.02863%, #ffa500 74.38855%, rgba(0, 0, 0, 0) 74.38855%, rgba(0, 0, 0, 0) 76.83435%, #ffa500 76.83435%, #ffa500 87.19427%, rgba(0, 0, 0, 0) 87.19427%, rgba(0, 0, 0, 0) 89.64008%, #ffa500 89.64008%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-      background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 10.35992%, rgba(0, 0, 0, 0) 10.35992%, rgba(0, 0, 0, 0) 12.80573%, #ffa500 12.80573%, #ffa500 23.16565%, rgba(0, 0, 0, 0) 23.16565%, rgba(0, 0, 0, 0) 25.61145%, #ffa500 25.61145%, #ffa500 35.97137%, rgba(0, 0, 0, 0) 35.97137%, rgba(0, 0, 0, 0) 38.41718%, #ffa500 38.41718%, #ffa500 48.7771%, rgba(0, 0, 0, 0) 48.7771%, rgba(0, 0, 0, 0) 51.2229%, #ffa500 51.2229%, #ffa500 61.58282%, rgba(0, 0, 0, 0) 61.58282%, rgba(0, 0, 0, 0) 64.02863%, #ffa500 64.02863%, #ffa500 74.38855%, rgba(0, 0, 0, 0) 74.38855%, rgba(0, 0, 0, 0) 76.83435%, #ffa500 76.83435%, #ffa500 87.19427%, rgba(0, 0, 0, 0) 87.19427%, rgba(0, 0, 0, 0) 89.64008%, #ffa500 89.64008%, #ffa500 100%, rgba(0, 0, 0, 0) 100%); } }
-  @media screen and (min-width: 960px) {
-    body:before {
-      background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 6.85076%, rgba(0, 0, 0, 0) 6.85076%, rgba(0, 0, 0, 0) 8.46811%, #ffa500 8.46811%, #ffa500 15.31888%, rgba(0, 0, 0, 0) 15.31888%, rgba(0, 0, 0, 0) 16.93622%, #ffa500 16.93622%, #ffa500 23.78699%, rgba(0, 0, 0, 0) 23.78699%, rgba(0, 0, 0, 0) 25.40434%, #ffa500 25.40434%, #ffa500 32.2551%, rgba(0, 0, 0, 0) 32.2551%, rgba(0, 0, 0, 0) 33.87245%, #ffa500 33.87245%, #ffa500 40.72321%, rgba(0, 0, 0, 0) 40.72321%, rgba(0, 0, 0, 0) 42.34056%, #ffa500 42.34056%, #ffa500 49.19133%, rgba(0, 0, 0, 0) 49.19133%, rgba(0, 0, 0, 0) 50.80867%, #ffa500 50.80867%, #ffa500 57.65944%, rgba(0, 0, 0, 0) 57.65944%, rgba(0, 0, 0, 0) 59.27679%, #ffa500 59.27679%, #ffa500 66.12755%, rgba(0, 0, 0, 0) 66.12755%, rgba(0, 0, 0, 0) 67.7449%, #ffa500 67.7449%, #ffa500 74.59566%, rgba(0, 0, 0, 0) 74.59566%, rgba(0, 0, 0, 0) 76.21301%, #ffa500 76.21301%, #ffa500 83.06378%, rgba(0, 0, 0, 0) 83.06378%, rgba(0, 0, 0, 0) 84.68112%, #ffa500 84.68112%, #ffa500 91.53189%, rgba(0, 0, 0, 0) 91.53189%, rgba(0, 0, 0, 0) 93.14924%, #ffa500 93.14924%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 6.85076%, rgba(0, 0, 0, 0) 6.85076%, rgba(0, 0, 0, 0) 8.46811%, #ffa500 8.46811%, #ffa500 15.31888%, rgba(0, 0, 0, 0) 15.31888%, rgba(0, 0, 0, 0) 16.93622%, #ffa500 16.93622%, #ffa500 23.78699%, rgba(0, 0, 0, 0) 23.78699%, rgba(0, 0, 0, 0) 25.40434%, #ffa500 25.40434%, #ffa500 32.2551%, rgba(0, 0, 0, 0) 32.2551%, rgba(0, 0, 0, 0) 33.87245%, #ffa500 33.87245%, #ffa500 40.72321%, rgba(0, 0, 0, 0) 40.72321%, rgba(0, 0, 0, 0) 42.34056%, #ffa500 42.34056%, #ffa500 49.19133%, rgba(0, 0, 0, 0) 49.19133%, rgba(0, 0, 0, 0) 50.80867%, #ffa500 50.80867%, #ffa500 57.65944%, rgba(0, 0, 0, 0) 57.65944%, rgba(0, 0, 0, 0) 59.27679%, #ffa500 59.27679%, #ffa500 66.12755%, rgba(0, 0, 0, 0) 66.12755%, rgba(0, 0, 0, 0) 67.7449%, #ffa500 67.7449%, #ffa500 74.59566%, rgba(0, 0, 0, 0) 74.59566%, rgba(0, 0, 0, 0) 76.21301%, #ffa500 76.21301%, #ffa500 83.06378%, rgba(0, 0, 0, 0) 83.06378%, rgba(0, 0, 0, 0) 84.68112%, #ffa500 84.68112%, #ffa500 91.53189%, rgba(0, 0, 0, 0) 91.53189%, rgba(0, 0, 0, 0) 93.14924%, #ffa500 93.14924%, #ffa500 100%, rgba(0, 0, 0, 0) 100%);
-      background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #ffa500 0, #ffa500 6.85076%, rgba(0, 0, 0, 0) 6.85076%, rgba(0, 0, 0, 0) 8.46811%, #ffa500 8.46811%, #ffa500 15.31888%, rgba(0, 0, 0, 0) 15.31888%, rgba(0, 0, 0, 0) 16.93622%, #ffa500 16.93622%, #ffa500 23.78699%, rgba(0, 0, 0, 0) 23.78699%, rgba(0, 0, 0, 0) 25.40434%, #ffa500 25.40434%, #ffa500 32.2551%, rgba(0, 0, 0, 0) 32.2551%, rgba(0, 0, 0, 0) 33.87245%, #ffa500 33.87245%, #ffa500 40.72321%, rgba(0, 0, 0, 0) 40.72321%, rgba(0, 0, 0, 0) 42.34056%, #ffa500 42.34056%, #ffa500 49.19133%, rgba(0, 0, 0, 0) 49.19133%, rgba(0, 0, 0, 0) 50.80867%, #ffa500 50.80867%, #ffa500 57.65944%, rgba(0, 0, 0, 0) 57.65944%, rgba(0, 0, 0, 0) 59.27679%, #ffa500 59.27679%, #ffa500 66.12755%, rgba(0, 0, 0, 0) 66.12755%, rgba(0, 0, 0, 0) 67.7449%, #ffa500 67.7449%, #ffa500 74.59566%, rgba(0, 0, 0, 0) 74.59566%, rgba(0, 0, 0, 0) 76.21301%, #ffa500 76.21301%, #ffa500 83.06378%, rgba(0, 0, 0, 0) 83.06378%, rgba(0, 0, 0, 0) 84.68112%, #ffa500 84.68112%, #ffa500 91.53189%, rgba(0, 0, 0, 0) 91.53189%, rgba(0, 0, 0, 0) 93.14924%, #ffa500 93.14924%, #ffa500 100%, rgba(0, 0, 0, 0) 100%); } }
-
 /*
 * Symbolset
 * www.symbolset.com
@@ -272,7 +240,7 @@ html {
   overflow-y: scroll;
   min-height: 100%;
   font-size: 14px; }
-  @media screen and (min-width: 569px) {
+  @media screen and (min-width: 569px) and (max-width: 959px) {
     html {
       font-size: 16px; } }
   @media screen and (min-width: 960px) {
@@ -301,7 +269,7 @@ h1 {
   letter-spacing: -2px;
   color: #399eba;
   text-align: center; }
-  @media screen and (min-width: 569px) {
+  @media screen and (min-width: 569px) and (max-width: 959px) {
     h1 {
       text-align: left; } }
 
@@ -375,7 +343,7 @@ header {
   position: relative;
   z-index: 0;
   padding: 2rem 0; }
-  @media screen and (min-width: 569px) {
+  @media screen and (min-width: 569px) and (max-width: 959px) {
     header {
       padding: 4rem 0; } }
   @media screen and (min-width: 960px) {
@@ -383,13 +351,13 @@ header {
       padding: 8rem 0; } }
 
 section {
-  margin: 2rem 0; }
-  @media screen and (min-width: 569px) {
+  margin: 4rem 0; }
+  @media screen and (min-width: 569px) and (max-width: 959px) {
     section {
       padding: 4rem 0; } }
   @media screen and (min-width: 960px) {
     section {
-      padding: 4rem 0; } }
+      padding: 2rem 0; } }
   section:last-of-type {
     margin-bottom: 0; }
 
@@ -404,12 +372,15 @@ section {
     display: table; }
   .container:after {
     clear: both; }
-  @media screen and (min-width: 569px) {
+  @media screen and (min-width: 569px) and (max-width: 959px) {
     .container {
       padding: 0 2rem; } }
   @media screen and (min-width: 960px) {
     .container {
-      padding: 0; } }
+      padding: 0 2rem; } }
+  @media screen and (min-width: 1200px) {
+    .container {
+      padding: 0 0; } }
 
 @media screen and (min-width: 960px) {
   .inner {
@@ -423,6 +394,18 @@ section {
 
 .person {
   margin-bottom: 2rem; }
+  @media screen and (min-width: 569px) and (max-width: 959px) {
+    .person {
+      float: left;
+      display: block;
+      margin-right: 2.4458%;
+      width: 48.7771%; }
+      .person:last-child {
+        margin-right: 0; }
+      .person:nth-child(2n) {
+        margin-right: 0; }
+      .person:nth-child(2n+1) {
+        clear: left; } }
   @media screen and (min-width: 960px) {
     .person {
       float: left;
@@ -456,6 +439,18 @@ section {
 .gold {
   text-align: center;
   display: block; }
+  @media screen and (min-width: 569px) and (max-width: 959px) {
+    .gold {
+      float: left;
+      display: block;
+      margin-right: 2.4458%;
+      width: 48.7771%; }
+      .gold:last-child {
+        margin-right: 0; }
+      .gold:nth-child(2n) {
+        margin-right: 0; }
+      .gold:nth-child(2n+1) {
+        clear: left; } }
   @media screen and (min-width: 960px) {
     .gold {
       float: left;
@@ -470,17 +465,31 @@ section {
         clear: left; } }
 
 .silver {
-  font-size: 1rem;
-  float: left;
-  display: block;
-  margin-right: 3.28787%;
-  width: 48.35606%; }
-  .silver:last-child {
-    margin-right: 0; }
-  .silver:nth-child(2n) {
-    margin-right: 0; }
-  .silver:nth-child(2n+1) {
-    clear: left; }
+  font-size: 1rem; }
+  @media screen and (min-width: 320px) and (max-width: 568px) {
+    .silver {
+      float: left;
+      display: block;
+      margin-right: 3.28787%;
+      width: 48.35606%; }
+      .silver:last-child {
+        margin-right: 0; }
+      .silver:nth-child(2n) {
+        margin-right: 0; }
+      .silver:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (min-width: 569px) and (max-width: 959px) {
+    .silver {
+      float: left;
+      display: block;
+      margin-right: 2.4458%;
+      width: 23.16565%; }
+      .silver:last-child {
+        margin-right: 0; }
+      .silver:nth-child(4n) {
+        margin-right: 0; }
+      .silver:nth-child(4n+1) {
+        clear: left; } }
   @media screen and (min-width: 960px) {
     .silver {
       float: left;
@@ -535,7 +544,7 @@ footer {
   width: 160px;
   height: 160px;
   background-size: 160px 160px; }
-  @media screen and (min-width: 569px) {
+  @media screen and (min-width: 569px) and (max-width: 959px) {
     .logomark {
       width: 220px;
       height: 220px;
@@ -613,17 +622,15 @@ path, g {
     background-image: linear-gradient(45deg,rgba(196, 48, 43, 0.6) 0%, rgba(177, 13, 10, 0.6) 99%); }
 
 .social-block .text {
-  padding: 2rem 0;
+  padding: 3rem 0;
   color: #F5F5F5;
   text-align: center;
   z-index: 10; }
-  @media screen and (min-width: 960px) {
-    .social-block .text {
-      padding: 3rem 0; } }
   .social-block .text span {
     font-size: 0.75rem;
     display: block; }
   .social-block .text h1 {
+    text-align: center;
     width: 60%;
     color: #F5F5F5;
     margin: 1rem auto 1.5rem auto;
@@ -650,7 +657,10 @@ path, g {
   margin: 0;
   -webkit-transform: translateZ(0);
   overflow: hidden; }
-  @media screen and (min-width: 569px) {
+  @media screen and (min-width: 569px) and (max-width: 959px) {
+    #map {
+      height: 400px; } }
+  @media screen and (min-width: 960px) {
     #map {
       height: 400px; } }
 
