@@ -576,6 +576,8 @@ footer {
   .sponsor img {
     display: block;
     margin: 0 auto; }
+  .sponsor.gold {
+    margin-bottom: 4rem; }
 
 svg {
   display: block;
@@ -589,7 +591,7 @@ path, g {
     fill: #F5F5F5 !important; }
 
 .noimg {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   color: #6B6B6B; }
   @media screen and (min-width: 960px) { }
 

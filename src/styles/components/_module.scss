@@ -79,6 +79,9 @@
     display: block;
     margin: 0 auto;
   }
+  &.gold {
+    margin-bottom: 4rem;
+  }
 }
 
 svg {
@@ -96,7 +99,7 @@ path, g {
 }
 
 .noimg {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   color: $color-light-gray;
   @include media($desktop) {
   }
