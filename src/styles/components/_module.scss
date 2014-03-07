@@ -88,6 +88,7 @@ svg {
 }
 
 path, g {
+  stroke: $color-white;
   fill: $color-light-gray;
   &.override {
     fill: $color-white !important;
@@ -98,7 +99,6 @@ path, g {
   margin-bottom: 2rem;
   color: $color-light-gray;
   @include media($desktop) {
-    margin-top: -2rem;
   }
 }
 
