@@ -578,6 +578,9 @@ footer {
     margin: 0 auto; }
   .sponsor.gold {
     margin-bottom: 4rem; }
+  .sponsor object {
+    position: relative;
+    z-index: -100; }
 
 svg {
   display: block;
