@@ -82,6 +82,10 @@
   &.gold {
     margin-bottom: 4rem;
   }
+  object {
+    position: relative;
+    z-index: -100;
+  }
 }
 
 svg {
