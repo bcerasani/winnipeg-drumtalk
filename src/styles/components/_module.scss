@@ -54,13 +54,35 @@
     margin: 0 0 1rem 0;
     display: block;
   }
-  .bio {
-    display: none;
+  h3 {
+    // padding: 0 0 0.5rem 0;
+    // border-bottom: 2px solid $color-primary;
   }
   p {
     font-size: $fs-small;
     margin: 0 0 1rem 0;
     color: $color-light-gray;
+  }
+}
+
+.details {
+  margin: 0 0 1rem 0;
+  overflow: auto;
+  line-height: 2rem;
+  .ss-icon {
+    opacity: 0.8;
+    float: right;
+    font-size: $fs-medium;
+    display: inline-block;
+    padding: 0 0.25rem 0 0.25rem;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .time {
+    float: left;
+    display: block;
+    color: $color-extra-light-gray;
   }
 }
 
@@ -211,10 +233,4 @@ path, g {
     background: $color-primary;
     color: $color-white;
   }
-}
-
-.ss-icon {
-  font-size: $fs-medium;
-  display: inline-block;
-  padding: 0 0.25rem 0 0;
 }

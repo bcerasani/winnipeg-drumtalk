@@ -284,7 +284,7 @@ h3 {
   font: 300 1.333rem 'Gotham SSm A', 'Gotham SSm B';
   color: #6B6B6B;
   line-height: 1;
-  margin: 0 0 0.5rem 0; }
+  margin: 0 0 0 0; }
 
 a {
   text-decoration: none;
@@ -558,12 +558,27 @@ footer {
 .person img {
   margin: 0 0 1rem 0;
   display: block; }
-.person .bio {
-  display: none; }
 .person p {
   font-size: 0.75rem;
   margin: 0 0 1rem 0;
   color: #6B6B6B; }
+
+.details {
+  margin: 0 0 1rem 0;
+  overflow: auto;
+  line-height: 2rem; }
+  .details .ss-icon {
+    opacity: 0.8;
+    float: right;
+    font-size: 1.333rem;
+    display: inline-block;
+    padding: 0 0.25rem 0 0.25rem; }
+    .details .ss-icon:hover {
+      opacity: 1; }
+  .details .time {
+    float: left;
+    display: block;
+    color: #B3B3B3; }
 
 .sponsor {
   font: 700 1.777rem 'Gotham SSm A', 'Gotham SSm B';
@@ -681,11 +696,6 @@ path, g {
   .button:hover {
     background: #399eba;
     color: #F5F5F5; }
-
-.ss-icon {
-  font-size: 1.333rem;
-  display: inline-block;
-  padding: 0 0.25rem 0 0; }
 
 /*  ============================================
 		State
