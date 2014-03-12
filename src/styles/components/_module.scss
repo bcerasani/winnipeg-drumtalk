@@ -18,7 +18,10 @@
     bottom: 0;
     left: 0;
     pointer-events: none;
-    @include linear-gradient(45deg, rgba($color-primary, 0.6) 0%, rgba($color-secondary, 0.6) 99%);
+    @include linear-gradient(60deg,
+      rgba(adjust-color($color-primary, $hue: 0), 0.6) 0%,
+      rgba(adjust-color($color-primary, $lightness: 0%, $hue: -15), 0.6) 99%
+    );
   }
 }
 

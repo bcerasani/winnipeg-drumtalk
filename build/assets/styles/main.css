@@ -527,11 +527,11 @@ footer {
     bottom: 0;
     left: 0;
     pointer-events: none;
-    background-color: rgba(57, 158, 186, 0.6);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(57, 158, 186, 0.6)), color-stop(99%, rgba(50, 155, 161, 0.6)));
-    background-image: -webkit-linear-gradient(-315deg, rgba(57, 158, 186, 0.6) 0%, rgba(50, 155, 161, 0.6) 99%);
-    background-image: -webkit-linear-gradient(45deg, rgba(57, 158, 186, 0.6) 0%, rgba(50, 155, 161, 0.6) 99%);
-    background-image: linear-gradient(45deg,rgba(57, 158, 186, 0.6) 0%, rgba(50, 155, 161, 0.6) 99%); }
+    background-color: rgba(56, 158, 186, 0.6);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(56, 158, 186, 0.6)), color-stop(99%, rgba(56, 186, 181, 0.6)));
+    background-image: -webkit-linear-gradient(-330deg, rgba(56, 158, 186, 0.6) 0%, rgba(56, 186, 181, 0.6) 99%);
+    background-image: -webkit-linear-gradient(30deg, rgba(56, 158, 186, 0.6) 0%, rgba(56, 186, 181, 0.6) 99%);
+    background-image: linear-gradient(60deg,rgba(56, 158, 186, 0.6) 0%, rgba(56, 186, 181, 0.6) 99%); }
 
 .hero-content {
   color: #fafafa;
@@ -776,49 +776,49 @@ path, g {
     color: #d9d9d9; }
 
 .hero-01 {
-  background: url("../images/hero/01_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/01_bw.jpg") top center no-repeat; }
 
 .hero-02 {
-  background: url("../images/hero/02_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/02_bw.jpg") top center no-repeat; }
 
 .hero-03 {
-  background: url("../images/hero/03_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/03_bw.jpg") top center no-repeat; }
 
 .hero-04 {
-  background: url("../images/hero/04_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/04_bw.jpg") top center no-repeat; }
 
 .hero-05 {
-  background: url("../images/hero/05_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/05_bw.jpg") top center no-repeat; }
 
 .hero-06 {
-  background: url("../images/hero/06_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/06_bw.jpg") top center no-repeat; }
 
 .hero-07 {
-  background: url("../images/hero/07_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/07_bw.jpg") top center no-repeat; }
 
 .hero-08 {
-  background: url("../images/hero/08_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/08_bw.jpg") top center no-repeat; }
 
 .hero-09 {
-  background: url("../images/hero/09_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/09_bw.jpg") top center no-repeat; }
 
 .hero-10 {
-  background: url("../images/hero/10_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/10_bw.jpg") top center no-repeat; }
 
 .hero-11 {
-  background: url("../images/hero/11_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/11_bw.jpg") top center no-repeat; }
 
 .hero-12 {
-  background: url("../images/hero/12_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/12_bw.jpg") top center no-repeat; }
 
 .hero-13 {
-  background: url("../images/hero/13_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/13_bw.jpg") top center no-repeat; }
 
 .hero-14 {
-  background: url("../images/hero/14_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/14_bw.jpg") top center no-repeat; }
 
 .hero-15 {
-  background: url("../images/hero/15_bw.jpg") center center no-repeat; }
+  background: url("../images/hero/15_bw.jpg") top center no-repeat; }
 
 /*  Selected
 --------------------------------------------- */
