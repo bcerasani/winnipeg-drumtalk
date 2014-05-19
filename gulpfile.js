@@ -1,20 +1,20 @@
 // Load plugins
-var gulp = require('gulp'),
-    sass = require('gulp-sass'),
-    autoprefixer = require('gulp-autoprefixer'),
-    csso = require('gulp-csso'),
-    uglify = require('gulp-uglify'),
-    rename = require('gulp-rename'),
-    clean = require('gulp-clean'),
-    concat = require('gulp-concat'),
-    cache = require('gulp-cache'),
-    imagemin = require('gulp-imagemin'),
-    lr = require('tiny-lr'),
-    livereload = require('gulp-livereload'),
-    server = lr(),
-    express = require('express'),
-    connect = require('connect-livereload'),
-    lrPort = 35729;
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+var csso = require('gulp-csso');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
+var clean = require('gulp-clean');
+var concat = require('gulp-concat');
+var cache = require('gulp-cache');
+var imagemin = require('gulp-imagemin');
+var lr = require('tiny-lr');
+var livereload = require('gulp-livereload');
+var server = lr();
+var express = require('express');
+var connect = require('connect-livereload');
+var lrPort = 35729;
 
 function startExpress() {
   var app = express();
@@ -22,32 +22,6 @@ function startExpress() {
       app.use(express.static(__dirname + '/build'));
       app.listen(4000);
 }
-
-// Hue Api
-var hue = require("node-hue-api"),
-    HueApi = hue.HueApi;
-    // lightState = hue.lightState;
-
-var host = "192.168.100.111",
-    username = "38dd650bbbf7b6f194666132bef48f7",
-    api = new HueApi(host, username);
-
-function hueError (err) {
-  api.lightStatus(1)
-    .then(function(status) {
-      api.setLightState(1, flash)
-        .then(api.setLightState(1, status.state));
-    })
-    .done(console.log(err));
-}
-
-var flash = {
-        "on":true,
-        "bri": 255,
-        "hue": 65535,
-        "sat": 255,
-        "transitiontime": 1
-      };
 
 // HTML
 gulp.task('html', function() {
@@ -58,9 +32,7 @@ gulp.task('html', function() {
 // Styles
 gulp.task('styles', function() {
   return gulp.src('src/styles/main.scss')
-    .pipe(sass({
-      onError: hueError
-    }))
+    .pipe(sass())
     .pipe(autoprefixer('last 2 version'))
     .pipe(gulp.dest('build/assets/styles'))
     .pipe(csso())
