@@ -1,0 +1,87 @@
+{
+  "name": "bradcerasani/winnipeg-drumtalk",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "update/2017",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://winnipegdrumtalk.ca",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/bradcerasani/winnipeg-drumtalk",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "winnipeg-drumtalk",
+      "subhead": "Winnipeg DrumTalk Festival website",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "winnipeg-drumtalk: Winnipeg DrumTalk Festival website",
+          "url": "http://winnipegdrumtalk.ca"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "bradcerasani",
+          "repo": "winnipeg-drumtalk"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>The Winnipeg DrumTalk Festival</h1>\n<p><a href=\"http://winnipegdrumtalk.ca\">winnipegdrumtalk.ca</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/bradcerasani/winnipeg-drumtalk",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/bradcerasani",
+          "text": "bradcerasani"
+        }
+      ]
+    }
+  ]
+}
